@@ -1,0 +1,145 @@
+.logo{
+    display:block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+}
+*{
+    margin: 0%;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+}
+.title{
+    margin: 20px 0px;
+}
+.main{
+    border:6px solid #dddddd;
+    /* height:70vh; */
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.233);
+}
+
+.name{
+    display: flex;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 8px 16px;
+    color:#7e7e7e;
+   height:60px;
+    background-color:skyblue;
+    text-align: center;
+    font: black;
+}
+.name > span{
+    color:black;
+}
+.name-input{
+    font-size: 24px;
+    font-weight: 700;
+    color:black;
+    flex-grow:1;
+    border:none;
+    margin:0px 12px;
+    outline: none;
+
+    background-color:skyblue;
+    
+}
+.message-container{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #f6f6f6; */
+    
+    width:400px;
+    height:600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.message-left{
+list-style-type: none;
+padding: 8px 12px;
+margin: 10px;
+max-width: 270px;
+font-size: 18px;
+word-wrap:break-word;
+border-radius: 20px 20px 0px 20px;
+align-self: flex-end;
+background-color: #fff;
+box-shadow:-2px 2px 4px #dcdcdc;
+}
+.message-right{
+    list-style-type: none;
+    padding: 8px 12px;
+    max-width: 270px;
+    font-size: 18px;
+    word-wrap:break-word;
+    border-radius: 20px 20px 20px 0px;
+align-self: flex-start;
+background-color: #2d2d2d;
+box-shadow:-2px 2px 4px #dcdcdc;
+color:white;
+margin: 10px;
+}
+.message-left > p > span,
+.message-right > p > span{
+display:block;
+font-style: italic;
+font-size:11px;
+margin-top: 3px;
+}
+.feedback{
+    font-style: italic;
+    font-size:13px;
+    padding:0px 16px 16px 16px;
+ text-align: center;
+}
+.message-form{
+    display:flex;
+    justify-content: space-between;
+    width:400px;
+}
+.message-input{
+    flex-grow: 1;
+    height: 48px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding:0 12px;
+    box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.425);
+    background-color: #fff;
+}
+.send-button{
+    height: 48px;
+    font-size:16px;
+    border:none;
+    padding: 0px 20px;
+    outline:none;
+    background-color: #fff;
+    cursor: pointer;
+    background-color:skyblue;
+}
+
+
+.v-divider{
+    height:47px;
+    width:2px;
+    background-color: #f6f6f6;
+}
+
+.clients-total{
+    margin: 20px 0;
+    color:black;
+}
